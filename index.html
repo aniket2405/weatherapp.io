@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-wrap">
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          placeholder="Search for a city..."
+        />
+      </header>
+      <div class="submit">
+        <button type="button" class="button">Find</button>
+      </div>
+      <main>
+        <section class="location">
+          <div class="city"></div>
+          <div class="date">
+            Type in a city name above and click on 'Find' <br />to get the
+            weather details!
+          </div>
+        </section>
+        <div class="current">
+          <div class="temp">
+            <span></span>
+          </div>
+          <div class="weather"></div>
+          <div class="hi-low"></div>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
